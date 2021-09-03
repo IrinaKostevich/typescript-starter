@@ -13,7 +13,9 @@ module.exports = {
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
   ],
   rules: {
+    'max-len': ['error', { 'code': 120 }],
     'no-console': 'off',
-    'no-restricted-syntax': 'off'
+    'no-restricted-syntax': 'off',
+    "import/prefer-default-export": 'off'
   }
 };
